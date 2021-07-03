@@ -1,0 +1,163 @@
+Cmp-Mod V01 Created by PcbNew   date = 25.06.2019 16:55:19
+
+BeginCmp
+TimeStamp = 5D124245
+Path = /5D12CB97
+Reference = R9;
+ValeurCmp = Р1-8В-0.125-20к;
+IdModule  = MOTOR_RLC:Резистор_SMD_0805_0,125Вт;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A9D6353
+Path = /5A9CE55E
+Reference = R5;
+ValeurCmp = Р1-8В-0.125-140;
+IdModule  = MOTOR_RLC:Резистор_SMD_0805_0,125Вт;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A9D6347
+Path = /5A9CE4A5
+Reference = R6;
+ValeurCmp = Р1-8В-0.125-140;
+IdModule  = MOTOR_RLC:Резистор_SMD_0805_0,125Вт;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A9D633B
+Path = /5A9CCF08
+Reference = R7;
+ValeurCmp = Р1-8В-0.125-240;
+IdModule  = MOTOR_RLC:Резистор_SMD_0805_0,125Вт;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A9D632F
+Path = /5A9CCE9B
+Reference = R8;
+ValeurCmp = Р1-8В-0.125-240;
+IdModule  = MOTOR_RLC:Резистор_SMD_0805_0,125Вт;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A9D630B
+Path = /5A9CD38D
+Reference = R2;
+ValeurCmp = Р1-8В-0.125-150;
+IdModule  = MOTOR_RLC:Резистор_SMD_0805_0,125Вт;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A9D6317
+Path = /5A9CD489
+Reference = R3;
+ValeurCmp = Р1-8В-0.125-300;
+IdModule  = MOTOR_RLC:Резистор_SMD_0805_0,125Вт;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B5EB285
+Path = /5B5F2D9C
+Reference = XS2;
+ValeurCmp = Вилка_СНП346-7ВП21-1-В;
+IdModule  = MOTOR_X:Вилка_СНП346-7ВП21-1-В;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B5EB272
+Path = /5B5F2A02
+Reference = XS1;
+ValeurCmp = Вилка_СНП346-6ВП21-1-В;
+IdModule  = MOTOR_X:Вилка_СНП346-6ВП21-1-В;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A9D62D5
+Path = /5A9CCD54
+Reference = DD1;
+ValeurCmp = 2011ВВ024;
+IdModule  = MOTOR_DD:2011ВВ024;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B16AD4B
+Path = /5B168CB7
+Reference = DA1;
+ValeurCmp = 249КП10AР;
+IdModule  = MOTOR_DA:МОП-реле_249КП10(SMD);
+EndCmp
+
+BeginCmp
+TimeStamp = 5A9D62FF
+Path = /5A9D3858
+Reference = R1;
+ValeurCmp = Р1-8В-0.5-100;
+IdModule  = MOTOR_RLC:Резистор_SMD_2010-0,5_Вт;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A9D6323
+Path = /5A9D14D5
+Reference = R4;
+ValeurCmp = Р1-8В-0.5-100К;
+IdModule  = MOTOR_RLC:Резистор_SMD_2010-0,5_Вт;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A9D6295
+Path = /5A9CEE1C
+Reference = C1;
+ValeurCmp = К10-83-50В-1,0мкФ;
+IdModule  = MOTOR_RLC:Конденсатор_SMD_1812;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A9D62A3
+Path = /5A9CED29
+Reference = C2;
+ValeurCmp = К10-83-50В-1,0мкФ;
+IdModule  = MOTOR_RLC:Конденсатор_SMD_1812;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A9D62E4
+Path = /5A9CE739
+Reference = HL1;
+ValeurCmp = КИПД-86;
+IdModule  = MOTOR_VD_VT_HL:Светодиод_SMD_3528;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A9D62F3
+Path = /5A9CE845
+Reference = HL2;
+ValeurCmp = КИПД-86;
+IdModule  = MOTOR_VD_VT_HL:Светодиод_SMD_3528;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A9D6E8D
+Path = 
+Reference = M3;
+ValeurCmp = ОтверстиеD3;
+IdModule  = MOTOR2:ОтверстиеD3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A9F7D2A
+Path = 
+Reference = Ref**;
+ValeurCmp = icon_motor_micro;
+IdModule  = MOTOR2:icon_motor_micro;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B5EE5ED
+Path = 
+Reference = REF**;
+ValeurCmp = Заводской_номер_5х20;
+IdModule  = MOTOR_ICO:Заводской_номер_5х20;
+EndCmp
+
+EndListe
