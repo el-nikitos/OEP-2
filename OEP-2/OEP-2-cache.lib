@@ -33,6 +33,26 @@ X GND ~ 0 0 50 L 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# BIG_schemes_Стабилитрон
+#
+DEF BIG_schemes_Стабилитрон VD 0 40 Y Y 1 F N
+F0 "VD" 350 300 138 H V C CNB
+F1 "BIG_schemes_Стабилитрон" 100 200 50 H I C CNN
+F2 "" 275 0 50 H I C CNN
+F3 "" 275 0 50 H I C CNN
+F4 "2.730" 100 300 50 H I C CNN "SYMBOL"
+DRAW
+P 2 0 1 18 150 0 0 0 N
+P 2 0 1 18 150 0 550 0 N
+P 2 0 1 0 425 100 375 100 N
+P 2 0 1 18 425 100 425 -100 N
+P 2 0 1 18 550 0 700 0 N
+P 4 0 1 18 275 100 275 -100 425 0 275 100 N
+X A A 0 0 0 R 50 50 1 1 I N
+X K K 700 0 0 R 50 50 1 1 I N
+ENDDRAW
+ENDDEF
+#
 # OEP-2-rescue_#метка-5V-BIG_schemes
 #
 DEF OEP-2-rescue_#метка-5V-BIG_schemes #5V 0 40 Y Y 1 F N
