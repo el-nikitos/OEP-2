@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# BIG_schemes_#метка-5V
+# #метка-5V-BIG_schemes
 #
-DEF BIG_schemes_#метка-5V #5V 0 40 Y Y 1 F N
+DEF #метка-5V-BIG_schemes #5V 0 40 Y Y 1 F N
 F0 "#5V" 0 -50 50 H I C CNN
-F1 "BIG_schemes_#метка-5V" -50 -150 50 H I C CNN
+F1 "#метка-5V-BIG_schemes" -50 -150 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -17,43 +17,11 @@ X 5V ~ 0 0 50 R 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# BIG_schemes_#метка-GND
+# Вилка_СНП346-6ВП21-1#1N1N6-BIG_schemes
 #
-DEF BIG_schemes_#метка-GND #GND 0 40 Y Y 1 F N
-F0 "#GND" 0 50 50 H I C CNN
-F1 "BIG_schemes_#метка-GND" 50 150 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-T 0 0 -350 138 0 0 0 GND Normal 1 C C
-P 2 0 0 18 0 -200 -200 -200 N
-P 2 0 0 18 0 -200 200 -200 N
-P 2 0 1 18 0 0 0 -200 N
-X GND ~ 0 0 50 L 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# OEP-2-rescue_#метка-5V-BIG_schemes
-#
-DEF OEP-2-rescue_#метка-5V-BIG_schemes #5V 0 40 Y Y 1 F N
-F0 "#5V" 0 -50 50 H I C CNN
-F1 "OEP-2-rescue_#метка-5V-BIG_schemes" -50 -150 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-T 0 0 350 138 0 0 0 5V Normal 1 C C
-P 2 0 0 18 0 200 -200 200 N
-P 2 0 0 18 0 200 200 200 N
-P 2 0 1 18 0 0 0 200 N
-X 5V ~ 0 0 50 R 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# OEP-2-rescue_Вилка_СНП346-6ВП21-1#1N1N6-BIG_schemes
-#
-DEF OEP-2-rescue_Вилка_СНП346-6ВП21-1#1N1N6-BIG_schemes XP 0 40 Y Y 1 F N
+DEF Вилка_СНП346-6ВП21-1#1N1N6-BIG_schemes XP 0 40 Y Y 1 F N
 F0 "XP" 200 150 138 H V C CNB
-F1 "OEP-2-rescue_Вилка_СНП346-6ВП21-1#1N1N6-BIG_schemes" 400 50 50 H I C CNN
+F1 "Вилка_СНП346-6ВП21-1#1N1N6-BIG_schemes" 400 50 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -83,11 +51,11 @@ X 5 5 0 -2100 0 R 50 138 1 1 I N
 ENDDRAW
 ENDDEF
 #
-# OEP-2-rescue_Вилка_СНП346-7ВП21-1#0-BIG_schemes
+# Вилка_СНП346-7ВП21-1#0-BIG_schemes
 #
-DEF OEP-2-rescue_Вилка_СНП346-7ВП21-1#0-BIG_schemes XP 0 40 Y Y 1 F N
+DEF Вилка_СНП346-7ВП21-1#0-BIG_schemes XP 0 40 Y Y 1 F N
 F0 "XP" 200 150 138 H V C CNB
-F1 "OEP-2-rescue_Вилка_СНП346-7ВП21-1#0-BIG_schemes" 400 50 50 H I C CNN
+F1 "Вилка_СНП346-7ВП21-1#0-BIG_schemes" 400 50 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -132,11 +100,11 @@ X 7 7 0 -3600 0 R 50 138 1 1 I N
 ENDDRAW
 ENDDEF
 #
-# OEP-2-rescue_Конденсатор_керамический-BIG_schemes
+# Конденсатор_керамический-BIG_schemes
 #
-DEF OEP-2-rescue_Конденсатор_керамический-BIG_schemes C 0 40 Y Y 1 F N
+DEF Конденсатор_керамический-BIG_schemes C 0 40 Y Y 1 F N
 F0 "C" 125 250 138 H V C CNB
-F1 "OEP-2-rescue_Конденсатор_керамический-BIG_schemes" 100 -100 60 H I C CNN
+F1 "Конденсатор_керамический-BIG_schemes" 100 -100 60 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "0,01u" 50 -200 138 H V C CNB "INFO"
@@ -150,11 +118,11 @@ X ~ 2 200 0 0 L 138 50 1 1 I N
 ENDDRAW
 ENDDEF
 #
-# OEP-2-rescue_Конденсатор_электролитический-BIG_schemes
+# Конденсатор_электролитический-BIG_schemes
 #
-DEF OEP-2-rescue_Конденсатор_электролитический-BIG_schemes C 0 40 Y Y 1 F N
+DEF Конденсатор_электролитический-BIG_schemes C 0 40 Y Y 1 F N
 F0 "C" 125 250 138 H V C CNB
-F1 "OEP-2-rescue_Конденсатор_электролитический-BIG_schemes" 100 -100 60 H I C CNN
+F1 "Конденсатор_электролитический-BIG_schemes" 100 -100 60 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "0,01u" 100 -275 138 H V C CNB "INFO"
@@ -170,11 +138,11 @@ X ~ 2 200 0 0 L 138 50 1 1 I N
 ENDDRAW
 ENDDEF
 #
-# OEP-2-rescue_Резистор_0,125Вт-BIG_schemes
+# Резистор_0,125Вт-BIG_schemes
 #
-DEF OEP-2-rescue_Резистор_0,125Вт-BIG_schemes R 0 40 Y Y 1 F N
+DEF Резистор_0,125Вт-BIG_schemes R 0 40 Y Y 1 F N
 F0 "R" 0 225 138 H V C CNB
-F1 "OEP-2-rescue_Резистор_0,125Вт-BIG_schemes" 0 -150 60 H I C CNN
+F1 "Резистор_0,125Вт-BIG_schemes" 0 -150 60 H I C CNN
 F2 "" -50 0 60 H I C CNN
 F3 "" -50 0 60 H I C CNN
 F4 "100 Ом" 0 -225 138 H V C CNB "Номинал"
@@ -189,11 +157,11 @@ X ~ 2 300 0 0 L 138 50 1 1 I N
 ENDDRAW
 ENDDEF
 #
-# OEP-2-rescue_Резистор_0,25Вт-BIG_schemes
+# Резистор_0,25Вт-BIG_schemes
 #
-DEF OEP-2-rescue_Резистор_0,25Вт-BIG_schemes R 0 40 Y Y 1 F N
+DEF Резистор_0,25Вт-BIG_schemes R 0 40 Y Y 1 F N
 F0 "R" 0 225 138 H V C CNB
-F1 "OEP-2-rescue_Резистор_0,25Вт-BIG_schemes" 0 -150 60 H I C CNN
+F1 "Резистор_0,25Вт-BIG_schemes" 0 -150 60 H I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "100 Ом" 0 -225 138 H V C CNB "Номинал"
@@ -207,11 +175,11 @@ X ~ 2 300 0 0 L 138 50 1 1 I N
 ENDDRAW
 ENDDEF
 #
-# OEP-2-rescue_Светодиод-BIG_schemes
+# Светодиод-BIG_schemes
 #
-DEF OEP-2-rescue_Светодиод-BIG_schemes HL 0 40 Y Y 1 F N
+DEF Светодиод-BIG_schemes HL 0 40 Y Y 1 F N
 F0 "HL" 200 400 138 H V C CNB
-F1 "OEP-2-rescue_Светодиод-BIG_schemes" 100 200 50 H I C CNN
+F1 "Светодиод-BIG_schemes" 100 200 50 H I C CNN
 F2 "" 275 0 50 H I C CNN
 F3 "" 275 0 50 H I C CNN
 F4 "2.730" 100 300 50 H I C CNN "SYMBOL"
@@ -235,11 +203,11 @@ X K K 700 0 0 R 50 50 1 1 I N
 ENDDRAW
 ENDDEF
 #
-# OEP-2-rescue_Стабилитрон-BIG_schemes
+# Стабилитрон-BIG_schemes
 #
-DEF OEP-2-rescue_Стабилитрон-BIG_schemes VD 0 40 Y Y 1 F N
+DEF Стабилитрон-BIG_schemes VD 0 40 Y Y 1 F N
 F0 "VD" 350 300 138 H V C CNB
-F1 "OEP-2-rescue_Стабилитрон-BIG_schemes" 100 200 50 H I C CNN
+F1 "Стабилитрон-BIG_schemes" 100 200 50 H I C CNN
 F2 "" 275 0 50 H I C CNN
 F3 "" 275 0 50 H I C CNN
 F4 "2.730" 100 300 50 H I C CNN "SYMBOL"
@@ -255,11 +223,11 @@ X K K 700 0 0 R 50 50 1 1 I N
 ENDDRAW
 ENDDEF
 #
-# OEP-2-rescue_Чип-индуктивность-BIG_schemes
+# Чип-индуктивность-BIG_schemes
 #
-DEF OEP-2-rescue_Чип-индуктивность-BIG_schemes L 0 40 Y Y 1 F N
+DEF Чип-индуктивность-BIG_schemes L 0 40 Y Y 1 F N
 F0 "L" 500 300 138 H V C CNB
-F1 "OEP-2-rescue_Чип-индуктивность-BIG_schemes" 75 -450 60 H I C CNN
+F1 "Чип-индуктивность-BIG_schemes" 75 -450 60 H I C CNN
 F2 "N_RLC:Чип-индуктивность_SMD_0805" 300 -350 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "10 мкГн" 650 -150 138 H V C CNB "INFO"
@@ -274,75 +242,6 @@ P 2 0 1 18 200 150 1000 150 N
 P 2 0 1 18 1000 0 1200 0 N
 X ~ 1 0 0 50 U 50 50 1 1 I N
 X ~ 2 1200 0 50 U 50 50 1 1 I N
-ENDDRAW
-ENDDEF
-#
-# elements_2020_Крепеж
-#
-DEF elements_2020_Крепеж X 0 40 Y Y 1 F N
-F0 "X" -75 125 50 H V C CNN
-F1 "elements_2020_Крепеж" -25 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 0 50 0 1 0 N
-P 2 0 1 0 0 0 -100 0 N
-P 2 0 1 0 0 100 0 -100 N
-X ~ 1 0 0 100 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# elements_2020_Транзистор_2Т3130А9
-#
-DEF elements_2020_Транзистор_2Т3130А9 VT 0 40 Y Y 1 F N
-F0 "VT" 200 250 39 H V C CNN
-F1 "elements_2020_Транзистор_2Т3130А9" 300 -525 39 H I C CNN
-F2 "MOTOR_VD_VT_HL:Корпус_КТ-46" 325 -600 39 H I C CNN
-F3 "" 0 0 39 H I C CNN
-F4 "аА0.339.569ТУ" 325 -675 39 H I C CNN "TY"
-DRAW
-C 300 0 180 0 1 0 N
-P 2 0 1 0 100 0 250 0 N
-P 2 0 1 0 250 -50 350 -150 N
-P 2 0 1 0 250 50 350 150 N
-P 2 0 1 0 250 100 250 -100 N
-P 2 0 1 0 350 -150 300 -125 N
-P 2 0 1 0 350 -150 325 -100 N
-P 2 0 1 0 350 -150 350 -200 N
-P 2 0 1 0 350 150 350 200 N
-X ~ 1 0 0 100 R 50 50 1 1 I
-X ~ 2 350 -300 100 U 50 50 1 1 I
-X ~ 3 350 300 100 D 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# elements_5559ИН10_28(UART-RS485)
-#
-DEF elements_5559ИН10_28(UART-RS485) DD 0 40 Y Y 1 F N
-F0 "DD" 350 550 60 H V C CNN
-F1 "elements_5559ИН10_28(UART-RS485)" 50 -500 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-T 0 0 350 60 0 0 0 RXT Normal 0 C C
-S -300 -450 -550 450 0 0 0 N
-S 300 450 -300 -450 0 0 0 N
-S 550 -450 300 -100 0 0 0 N
-S 550 -100 300 250 0 0 0 N
-S 550 250 300 450 0 0 0 N
-P 2 0 0 0 320 150 330 160 N
-P 2 0 0 0 400 150 390 140 N
-P 4 0 0 0 360 180 390 220 330 220 360 180 N
-P 4 0 0 0 360 360 390 400 330 400 360 360 N
-P 4 0 0 0 390 160 400 150 320 150 330 140 N
-X RO 1 750 350 200 L 50 50 1 1 I
-X nRE 2 -750 150 200 R 50 50 1 1 I
-X DE 3 -750 0 200 R 50 50 1 1 I
-X DI 4 -750 -150 200 R 50 50 1 1 I
-X GND 5 750 -200 200 L 50 50 1 1 I X
-X AY 6 750 150 200 L 50 50 1 1 I
-X BZ 7 750 0 200 L 50 50 1 1 I
-X Ucc 8 750 -350 200 L 50 50 1 1 I X
 ENDDRAW
 ENDDEF
 #
